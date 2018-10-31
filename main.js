@@ -1,2 +1,2 @@
 /*This is the first application using node*/
-console.log("Hello world, This is node running!!!")
+console.log("Yeap, node is working properly!!!")
