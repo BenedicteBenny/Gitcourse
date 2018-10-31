@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is Andela</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//the javascript codes are to be here
+		function identification(id, name, ug){
+			var studentname=("studentname : "+name+"\n");
+			var studentid=("studentid : "+id+"\n");
+			
+			alert(studentid + studentname);
+		}
+	</script>
+	<form>
+		<!-- <input type="button" onmouseover="alert('Hey, you entered the button!!!')" onmouseout="alert('you are out of the button')" name="button" value="Click me"> -->
+		<!-- <input type="button" onmouseover="this.title='My new title';" onmouseout="this.title='This is Andela';" value="Click and watch"> -->
+		<input type="button" id="#001" name="BENEDICTE MUSABIMANA"  onclick="identification(this.id, this.name, this.ug)" value="student1">
+		<input type="button" id="#011" name="IRADUKUNDA Andree Honoree" onclick="identification(this.id, this.name, this.ug)" value="student2">
+
+	</form>
+</body>
+</html>
