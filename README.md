@@ -1,2 +1,1 @@
-hello, it is me..
-i'm new  on git
+This is git hub.. right?
